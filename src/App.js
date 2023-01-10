@@ -4,9 +4,7 @@ import {
   About,
   Footer,
   Header,
-  Skills,
-  // Testimonials,
-  Work
+  Skills
 } from './container';
 
 import { Navbar } from './components';
@@ -17,9 +15,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Work />
       <Skills />
-      {/* <Testimonials /> */}
       <Footer />
     </div>
   );
